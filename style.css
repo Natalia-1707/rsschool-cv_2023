@@ -1,1 +1,306 @@
-rsschool-cv-html
+html {
+    height: 2000px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    height: 2000px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    height: 300px;
+    width: 1400px;
+    margin: 50px 50px 0px 50px;
+}
+.header-container {
+    width: 1400px;
+    height: 300px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+}
+.photo-left {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 0px 50px;
+    border: 1px solid #556B2F
+}
+
+.information-header-right{
+    width: 1000px;
+    height: 300px;
+    background-color: #556B2F;
+    margin: 0px 50px 0px 0px;
+    border: 1px solid #556B2F
+}
+
+.name {
+    padding-top: 18px;
+    text-align: center;
+    font-variant: bold;
+    font-size: 40px;
+    color:white;
+    opacity: 0.9;
+    letter-spacing: 0.3em;
+}
+
+.profession {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+    letter-spacing: 0.1em;
+}
+
+.navigation {
+    display: inline-flex;
+    list-style-type: none;
+    line-height: 180px;
+}
+
+.textnav {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+    opacity: 0.7;
+    height: 15px;
+    padding-right: 30px;
+}
+
+.main {
+    width: 1400px;
+    height: 1250px;
+    margin: 0px;
+}
+.first-main-block {
+    height: 300px;
+    width: 1400px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.first-main-block-left {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 0px 50px;
+    background-color: rgb(238, 235, 235);
+}
+
+.first-main-block-right {
+    width: 1000px;
+    height: 300px;
+    margin: 0px 50px 0px 0px;
+    background-color: rgb(214, 211, 211);;
+}
+
+.contacts {
+    list-style-type: none;
+    line-height: 39px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+.wordcontacts {
+    padding-left: 10px;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+}
+
+.textcontacts {
+    font-size: 22px;
+    color: black;
+}
+
+.email {
+    font-size: 18px;
+}
+
+
+.hthreeaboutme {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+    text-align: center;
+}
+
+.textaboutme {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.second-main-block {
+    height: 300px;
+    width: 1400px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.second-main-block-left {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 50px 50px;
+    background-color: rgb(214, 211, 211);
+}
+
+.second-main-block-right {
+    width: 1000px;
+    height: 300px;
+    margin: 0px 50px 50px 0px;
+    background-color:rgb(238, 235, 235);
+}
+
+.skills {
+    line-height: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.wordskills {
+    padding-left: 7px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+}
+
+.textskills {
+    font-size: 22px;
+    color: black;
+}
+
+.hworkingexperience {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.textworkingexperience {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.third-main-block {
+    height: 300px;
+    width: 1400px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.third-main-block-left {
+    width: 300px;
+    height: 300px;
+    margin: 0px 0px 50px 50px;
+    background-color: rgb(238, 235, 235);
+}
+
+.third-main-block-right {
+    width: 1000px;
+    height: 300px;
+    margin: 0px 50px 50px 0px;
+    background-color: rgb(214, 211, 211);;
+}
+
+.languages {
+    line-height: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.wordlanguages {
+    padding-left: 7px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+}
+
+.textlanguages {
+    font-size: 22px;
+    color: black;
+}
+
+.heducation {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+    padding-top: 1px;
+    text-align: center;
+}
+
+.texteducation {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.forth-main-block {
+    height: 400px;
+    width: 1400px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.forth-main-block-left {
+    width: 300px;
+    height: 400px;
+    margin: 0px 0px 0px 50px;
+    background-color: rgb(214, 211, 211);
+}
+
+.forth-main-block-right {
+    width: 1000px;
+    height: 400px;
+    margin: 0px 50px 0px 0px;
+    background-color: rgb(238, 235, 235);
+}
+
+.wordcodeexample {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: 3px underline #556B2F;
+}
+
+.paragraph_codeexample {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.codetext {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    width: 1400px;
+    height: 200px;
+    margin: 0px;
+}
+.footerlist {
+    width: 1300px;
+    height: 200px;
+    background-color: rgb(156, 153, 153);
+    margin: 0px 0px 0px 100px;
+}
+.footerlinks {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+}
+

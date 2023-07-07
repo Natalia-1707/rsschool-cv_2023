@@ -1,1 +1,120 @@
-rssschool-cv-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+        <div class="photo-left">
+            <img src="img/da81e2b2-71dd-463e-8e86-76e8ec556173.jpg" alt="Natalia Tsepoukhova" width="300" height="300">
+        </div>
+        <div class="information-header-right">
+            <h1 class="name">Natalia Tsepoukhova</h1>
+            <h2 class="profession">Junior Front-end developer</h2>
+            <nav class="nav">
+                <ul class="navigation">
+                    <li class="textnav"><a href="#contacts" style="color: white">Contacts</a></li>
+                    <li class="textnav"><a href="#aboutme" style="color: white">About me</a></li>
+                    <li class="textnav"><a href="#skills" style="color: white">Skills</a></li>
+                    <li class="textnav"><a href="#codeexample" style="color: white">Code example</a></li>
+                    <li class="textnav"><a href="#workingexperience" style="color: white">Working experience</a></li>
+                    <li class="textnav"><a href="#education" style="color: white">Education</a></li>
+                    <li class="textnav"><a href="#languages" style="color: white">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="first-main-block">
+            <div id="contacts" class="first-main-block-left">
+                <h3 class="wordcontacts">Contacts</h3>
+                <ul class="contacts">
+                    <li class="textcontacts"> <img src="img/free-icon-mobile-phone-545245.png" alt="Phone" width="25" height="25"> +77077720028</li>
+                    <li> <img src="img/free-icon-mail-10417536.png" alt="Email" width="25" height="25"> <span class="email">nataliatsepoukhowa@gmail.com</span></li>
+                    <li class="textcontacts"> <img src="img/free-icon-telegram-739260.png" alt="Telegram" width="25" height="25"> @ntdanilova</li>
+                    <li class="textcontacts"> <img src="img/Discord.png" alt="Discord" width="25" height="25">: Natalia Tsep (@Natalia - 1707)</li>
+                </ul>
+            </div>
+            <div id="aboutme" class="first-main-block-right">
+                    <h3 class="hthreeaboutme">About me</h3>
+                    <p class="textaboutme">I have a linguistic education and work experience in customer service, but a year ago i decided to try something new. Firstly I began to learn Python and got base of it, but then i got interested in Front-end, so i'm here.</p>
+            </div>
+        </div>
+        <div class="second-main-block">
+            <div id="skills" class="second-main-block-left">
+                <h3 class="wordskills">Skills</h3>
+                <ul class="skills">
+                    <li class="textskills">HTML</li>
+                    <li class="textskills">CSS</li>
+                    <li class="textskills">Python, JavaScript (both basics)</li>
+                    <li class="textskills">Figma</li>
+                    <li class="textskills">Git</li>
+                </ul>
+            </div>
+            <div id="workingexperience" class="second-main-block-right">
+                <h3 class="hworkingexperience">Working experience</h3>
+                <p class="textworkingexperience">2018-2022 - Account and Sales manager at Reed Exhibitions<br>
+                    2022 - present - Sales manager at Univibes Project<br>
+                </p>
+            </div>
+        </div>
+        <div class="third-main-block">
+            <div id="languages" class="third-main-block-left">
+                <h3 class="wordlanguages">Languages</h3>
+                <ul class="languages">
+                    <li class="textlanguages">Russian: native</li>
+                    <li class="textlanguages">English: B1-B2</li>
+                    <li class="textlanguages">German: B2</li>
+                </ul>
+            </div>
+            <div id="education" class="third-main-block-right">
+                <h3 class="heducation">Education</h3>
+                <p class="texteducation">2016 Moscow City University / Linguistics /Bachelor degree<br>
+                    2018 Moscow City University / Linguistics / Master degree<br>
+                    Stepik / Python / "Generation Python": Course for beginners<br>
+                </p>
+            </div>
+        </div>
+        <div id="codeexample" class="forth-main-block">
+            <div class="forth-main-block-left">
+                <p class="paragraph_codeexample"><span class="wordcodeexample">Code example</span></p>
+            </div>
+            <div class="forth-main-block-right">
+                <pre>
+                    <span class="codetext">
+                        function testCycle(a, b) {
+                            var x = 0;
+                            while (a != 0 && b !=0) {
+                                if (a === b) {
+                                break;
+                                } else if (a > b) {
+                                    a = a % b;
+                                } else { 
+                                    b = b % a;
+                                }
+                            }
+                            x = a + b;
+                            return x
+                    }</span>
+                </pre>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+            <div class="footerlist">
+                <ul class="footerlinks">
+                    <li><a class="footer__link--rsschool" href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="LogoRsshool" width="150" height="150"></a></li>
+                    <li> Natalia Tsepoukhova,2023 <a class="footer__link--github" href="https://github.com/Natalia-1707"><img src="img/free-icon-github-1051377.png" alt="GitHub" width="30" height="30"></a></li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>
